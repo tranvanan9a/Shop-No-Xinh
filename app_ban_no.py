@@ -70,11 +70,4 @@ elif menu == "🤖 AI Kiểm Kho":
         with c1: st.image(opencv_image, caption="Ảnh gốc", channels="BGR")
         with c2: st.image(result_img, caption="AI đã nhận diện", channels="BGR")
         
-        st.success(f"🎯 AI PHÁT HIỆN: {count} SẢN PHẨM TRONG KHO")
-
-### Cách chạy ứng dụng này:
-1. Mở Terminal trong Thonny.
-2. Gõ: `streamlit run app_ban_no.py`
-3. Trình duyệt sẽ mở ra một trang web bán hàng chuyên nghiệp có tích hợp AI của riêng bạn!
-
-Lộ trình và mã nguồn này đã đủ để bạn bắt đầu xây dựng thương hiệu chưa? Bạn có muốn tôi hướng dẫn cách đưa nó lên Internet (Cloud) để gửi link cho khách hàng không?
+        st.success(f"🎯 AI PHÁT HIỆN: {count} SẢN PHẨM TRONG KHO")  
